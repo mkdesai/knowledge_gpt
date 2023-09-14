@@ -32,10 +32,10 @@ st.header("📖KnowledgeGPT")
 # Enable caching for expensive functions
 bootstrap_caching()
 
-sidebar()
+# sidebar()
 
-#openai_api_key = st.session_state.get("OPENAI_API_KEY")
-openai_api_key = "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"
+openai_api_key = st.session_state.get("OPENAI_API_KEY")
+
 
 
 if not openai_api_key:
