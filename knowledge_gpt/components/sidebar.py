@@ -25,7 +25,7 @@ def sidebar():
         )
 
         st.session_state["OPENAI_API_KEY"] = api_key_input
-
+"""
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
@@ -41,3 +41,4 @@ def sidebar():
         st.markdown("---")
 
         faq()
+"""
