@@ -21,7 +21,7 @@ from knowledge_gpt.core.utils import get_llm
 
 EMBEDDING = "openai"
 VECTOR_STORE = "faiss"
-MODEL_LIST = ["gpt-3.5-turbo", "gpt-4"]
+MODEL_LIST = ["gpt-3.5-turbo"]
 
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
@@ -34,7 +34,8 @@ bootstrap_caching()
 
 sidebar()
 
-openai_api_key = st.session_state.get("OPENAI_API_KEY")
+#openai_api_key = st.session_state.get("OPENAI_API_KEY")
+openai_api_key = "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"
 
 
 if not openai_api_key:
