@@ -25,9 +25,9 @@ def sidebar():
             or st.session_state.get("OPENAI_API_KEY", ""),
         )
         """
-       # st.session_state["OPENAI_API_KEY"] = api_key_input
+       st.session_state["OPENAI_API_KEY"] = api_key_input
         
-        st.session_state["OPENAI_API_KEY"] = st.session_state.get("OPENAI_API_KEY", "")
+        #st.session_state["OPENAI_API_KEY"] = st.session_state.get("OPENAI_API_KEY", "")
 
 """
         st.markdown("---")
