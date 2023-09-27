@@ -26,8 +26,8 @@ MODEL_LIST = ["gpt-3.5-turbo"]
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
-st.header("KnowledgeGPT")
+st.set_page_config(page_title="Knowtion GPT", page_icon="📖", layout="wide")
+st.header("Knowtion GPT")
 
 # Enable caching for expensive functions
 bootstrap_caching()
