@@ -15,7 +15,7 @@ def sidebar():
             "1. Upload a pdf, docx, or txt file📄\n"
             "2. Ask a question about the document💬\n"
         )
-"""
+
         api_key_input = st.text_input(
             "OpenAI API Key",
             type="password",
@@ -25,10 +25,9 @@ def sidebar():
             or st.session_state.get("OPENAI_API_KEY", ""),
         )
         
-"""
-       #st.session_state["OPENAI_API_KEY"] = api_key_input
+        st.session_state["OPENAI_API_KEY"] = api_key_input
 
-        st.session_state["OPENAI_API_KEY"] = st.session_state.get("OPENAI_API_KEY", "")
+        #st.session_state["OPENAI_API_KEY"] = st.session_state.get("OPENAI_API_KEY", "")
 
 """
         st.markdown("---")
